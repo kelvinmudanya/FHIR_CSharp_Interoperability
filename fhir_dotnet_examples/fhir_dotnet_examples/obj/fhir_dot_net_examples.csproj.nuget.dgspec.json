@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kelvi\\Downloads\\fhir_dotnet_examples\\fhir_dotnet_examples\\fhir_dot_net_examples.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kelvi\\Downloads\\fhir_dotnet_examples\\fhir_dotnet_examples\\fhir_dot_net_examples.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kelvi\\Downloads\\fhir_dotnet_examples\\fhir_dotnet_examples\\fhir_dot_net_examples.csproj",
+        "projectName": "fhir_dot_net_examples",
+        "projectPath": "C:\\Users\\kelvi\\Downloads\\fhir_dotnet_examples\\fhir_dotnet_examples\\fhir_dot_net_examples.csproj",
+        "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kelvi\\Downloads\\fhir_dotnet_examples\\fhir_dotnet_examples\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp31"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.health.go.ke/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp31",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp31",
+          "dependencies": {
+            "Hl7.Fhir.R4": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "system.drawing.common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
